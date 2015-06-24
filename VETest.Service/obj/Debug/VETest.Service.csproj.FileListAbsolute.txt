@@ -1,0 +1,5 @@
+C:\PROJECTS\VETest\VETest.Service\bin\Debug\VETest.Service.dll
+C:\PROJECTS\VETest\VETest.Service\bin\Debug\VETest.Service.pdb
+C:\PROJECTS\VETest\VETest.Service\obj\Debug\VETest.Service.dll
+C:\PROJECTS\VETest\VETest.Service\obj\Debug\VETest.Service.pdb
+C:\PROJECTS\VETest\VETest.Service\obj\Debug\VETest.Service.csprojResolveAssemblyReference.cache

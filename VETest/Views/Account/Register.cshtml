@@ -1,0 +1,24 @@
+﻿@model VETest.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h3>Please enter user id and click register button.</h3>
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new {@class = "form-horizontal", role = "form"}))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.UserId, new {@class = "col-md-2 control-label"})
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.UserId, new {@class = "form-control"})
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register"/>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
